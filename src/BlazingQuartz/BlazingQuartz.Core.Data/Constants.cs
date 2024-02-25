@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 
-namespace BlazingQuartz
+namespace BlazingQuartz.Core.Data
 {   
     public enum LogType
     {
