@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.Text;
 using BlazingQuartz.Components;
-using BlazingQuartz.Core.Data;
+using BlazingQuartz.Core;
 using BlazingQuartz.Core.Data.Entities;
 using BlazingQuartz.Core.Models;
 using BlazingQuartz.Core.Services;

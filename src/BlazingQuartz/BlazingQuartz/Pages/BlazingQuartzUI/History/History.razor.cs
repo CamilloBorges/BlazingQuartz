@@ -77,7 +77,7 @@ namespace BlazingQuartz.Pages.BlazingQuartzUI.History
 
             switch (log.LogType)
             {
-                case Core.Data.LogType.ScheduleJob:
+                case LogType.ScheduleJob:
                     if (log.IsVetoed ?? false)
                         return (Icons.Filled.HighlightOff, Color.Warning, "Vetoed");
 
@@ -88,7 +88,7 @@ namespace BlazingQuartz.Pages.BlazingQuartzUI.History
                     }
                     else
                         return (Icons.Filled.Check, Color.Info, "Success");
-                case Core.Data.LogType.Trigger:
+                case LogType.Trigger:
                     return (Icons.Filled.Alarm, Color.Tertiary, "Trigger");
                 default:
                     return (Icons.Outlined.Info, Color.Tertiary, "System Info");
